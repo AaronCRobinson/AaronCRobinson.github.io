@@ -81,5 +81,5 @@ body {
 .logo {
   opacity:0.5;
   filter:alpha(opacity=50); /* For IE8 and earlier */
-  height:50px;
+  height:40px;
 }
