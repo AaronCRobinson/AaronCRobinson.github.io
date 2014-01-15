@@ -84,3 +84,10 @@ body {
   filter:alpha(opacity=50); /* For IE8 and earlier */
   height:40px;
 }
+
+.forkme {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+}
