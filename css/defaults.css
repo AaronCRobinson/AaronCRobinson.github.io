@@ -10,6 +10,10 @@ body {
   }
 }
 
+.nav-pills>li {
+   padding: 0 3px;
+}
+
 /* Wrapper for page content to push down footer */
 #wrap {
   min-height: 100%;
