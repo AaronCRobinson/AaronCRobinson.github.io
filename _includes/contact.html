@@ -7,26 +7,7 @@
 
       {{ page.content | markdownify }}
 
-      {% if site.email %}
-        {% if site.email contains '@' %}
-          {% assign newemail = site.email | split: '@' %}
-            <p>
-            <script>
-              function join_at_email(user, domain){
-              return (user && domain)?(user + "@" + domain):"";
-              }
-              document.write('<a href="mailto:'
-              + join_at_email( "{{ newemail[0] }}", "{{ newemail[1] }}" )
-              + '">'
-              + join_at_email( "{{ newemail[0] }}", "{{ newemail[1] }}" )
-              + '</a>'
-              );
-              </script>
-            </p>
-        {% else %}
-          <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-        {% endif %}
-      {% endif %}
+      <a href="http://www.google.com/recaptcha/mailhide/d?k=019Bivzhqa5xR7EIncWTSAXA==&amp;c=4lutqrJpLa_WBllVc6klxoe70sTC97rSPTA6Vkco_3c=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\x3d019Bivzhqa5xR7EIncWTSAXA\x3d\x3d\x26c\x3d4lutqrJpLa_WBllVc6klxoe70sTC97rSPTA6Vkco_3c\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">r...</a>@gmail.com
 
     </div>
   </div>
