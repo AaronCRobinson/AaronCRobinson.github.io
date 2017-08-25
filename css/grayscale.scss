@@ -445,3 +445,18 @@ body {
 .fourofour {
   border: 1px solid $primary-color !important;
 }
+
+@media(min-width:768px) {
+  .projects-div {
+    width: 50%;
+    display: table-cell;
+    vertical-align:top;
+  }
+  .projects-table {
+    width: 100%;
+    display: table;
+  }
+  .projects-row {
+    display: table-row;
+  }
+}
