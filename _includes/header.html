@@ -1,9 +1,26 @@
-<div class="header">
-  <ul class="nav nav-pills pull-right">
-    <li class="{{page.about_class}}"><a href="./about.html">About</a></li>
-    <li class="{{page.resume_class}}"><a href="http://do6fj84qqc2ss.cloudfront.net/resume.pdf" target="_blank">Resume</a></li>
-    <li class="{{page.cv_class}}"><a href="http://do6fj84qqc2ss.cloudfront.net/cv.pdf" target="_blank">CV</a></li>
-    <li class="{{page.contact_class}}"><a href="#">Contact</a></li>
-  </ul>
-  <a href="./" ><img class="logo" src="http://do6fj84qqc2ss.cloudfront.net/logo_small.png"></a>
-</div>
+
+<!-- Intro Start -->
+
+<header class="intro">
+  <div class="intro-body">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <h1 class="brand-heading">&nbsp;</h1>
+            <h1 class="brand-heading">&nbsp;</h1>
+            <span class="intro-text">{{ content }}</span>
+            <h5>&nbsp;</h5>
+            <a href="#{{ site.pages_list['About'] }}" class="page-scroll">
+              {% if site.me-img contains "https://" %}
+                <img class="img-me" src="{{ site.me-img }}" alt="">
+              {% else %}
+                <img class="img-me" src="{{site.baseurl}}{{ site.me-img }}" alt="">
+              {% endif %}
+            </a>
+          </div>
+        </div>
+    </div>
+  </div>
+</header>
+
+<!-- Intro End -->
