@@ -7,9 +7,15 @@
       <div style="width: 100%; display: table;">
 	    <div style="display: table-row">
        	  {{ page.content | markdownify }}
-	      <div style="width: 50%; display: table-cell;">
+	    </div>
+	  </div>
+      <div style="width: 100%; display: table;">
+	    <div style="display: table-row">
+	      <div style="width: 50%; display: table-cell;vertical-align:top;">
+	      	{% capture my_include %}{% include_relative project-showcase.html %}{% endcapture %}
+			{{ my_include | markdownify }}
 	      </div>
-	      <div style="display: table-cell;">
+	      <div style="display: table-cell;vertical-align:top;">
 	      	<div id="feed"></div>
 	      </div>
 	    </div>
