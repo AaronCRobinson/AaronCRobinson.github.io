@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/aaroncrobinson
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://aaroncrobinson.github.io
+  * I am aaroncrobinson (https://keybase.io/aaroncrobinson) on keybase.
+  * I have a public key ASCGmnIqwwx1AkTAQzb1y50-qB7jvsrYOXR7aqfYTeCURAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120869a722ac30c750244c04336f5cb9d3ea81ee3becad839747b6aa7d84de094440a",
+      "host": "keybase.io",
+      "kid": "0120869a722ac30c750244c04336f5cb9d3ea81ee3becad839747b6aa7d84de094440a",
+      "uid": "98f182482664fc4bdb67baa9d9279119",
+      "username": "aaroncrobinson"
+    },
+    "merkle_root": {
+      "ctime": 1503770391,
+      "hash": "989f13db84fd80badd7ea29dade57ba814f3ca4ef134f9481695f1a9ae0feb3320b049dc816d21c6100f281eed25349e7744117cda5b0b0e6f87adc57dc33e78",
+      "hash_meta": "1b60d6f99807e2adc5e76263e11f9c3fc4dd3bae5168cdd4bba3fe2c00510a85",
+      "seqno": 1350363
+    },
+    "service": {
+      "hostname": "aaroncrobinson.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.28"
+  },
+  "ctime": 1503770486,
+  "expire_in": 504576000,
+  "prev": "7148a6afbf283f00aa1930c9b2bf812b2e8d8438da49fb51170bd2c26a522177",
+  "seqno": 4,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEghppyKsMMdQJEwEM29cudPqge477K2Dl0e2qn2E3glEQKp3BheWxvYWTFA1Z7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwODY5YTcyMmFjMzBjNzUwMjQ0YzA0MzM2ZjVjYjlkM2VhODFlZTNiZWNhZDgzOTc0N2I2YWE3ZDg0ZGUwOTQ0NDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwODY5YTcyMmFjMzBjNzUwMjQ0YzA0MzM2ZjVjYjlkM2VhODFlZTNiZWNhZDgzOTc0N2I2YWE3ZDg0ZGUwOTQ0NDBhIiwidWlkIjoiOThmMTgyNDgyNjY0ZmM0YmRiNjdiYWE5ZDkyNzkxMTkiLCJ1c2VybmFtZSI6ImFhcm9uY3JvYmluc29uIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTAzNzcwMzkxLCJoYXNoIjoiOTg5ZjEzZGI4NGZkODBiYWRkN2VhMjlkYWRlNTdiYTgxNGYzY2E0ZWYxMzRmOTQ4MTY5NWYxYTlhZTBmZWIzMzIwYjA0OWRjODE2ZDIxYzYxMDBmMjgxZWVkMjUzNDllNzc0NDExN2NkYTViMGIwZTZmODdhZGM1N2RjMzNlNzgiLCJoYXNoX21ldGEiOiIxYjYwZDZmOTk4MDdlMmFkYzVlNzYyNjNlMTFmOWMzZmM0ZGQzYmFlNTE2OGNkZDRiYmEzZmUyYzAwNTEwYTg1Iiwic2Vxbm8iOjEzNTAzNjN9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiYWFyb25jcm9iaW5zb24uZ2l0aHViLmlvIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMjgifSwiY3RpbWUiOjE1MDM3NzA0ODYsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiNzE0OGE2YWZiZjI4M2YwMGFhMTkzMGM5YjJiZjgxMmIyZThkODQzOGRhNDlmYjUxMTcwYmQyYzI2YTUyMjE3NyIsInNlcW5vIjo0LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQKruLX4dLw2v6AU1P5E5TjnQ2C8hXJlJraLZzbe///yvKiy6KYYb2Dm0QYuc/pWzvJbZbNHcVlfuA3pMWaJAQwyoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCAkLJnPx/8/MSq3lxcmclCQ0XYA5D5o1ywkBiK6NpYotqN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/aaroncrobinson
+
+==================================================================
