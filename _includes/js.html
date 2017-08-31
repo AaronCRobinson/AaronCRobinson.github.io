@@ -143,15 +143,20 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
     shuffle(myQuotes)
   {% endif %}
 
-    $(".intro-text").typed({
+  var typed = new Typed('.intro-text', {
       strings: myQuotes,
       typeSpeed: {{ site.type-speed }},
+      backSpeed: {{ site.backspace-speed }},
       backDelay: {{ site.delete-delay }},
       startDelay: {{ site.start-delay }},
       loop: {{ site..loop }},
       loopCount: {{ site.loop-count }},
+      fadeOut: {{ site.fadeout }},
+      fadeOutDelay: {{ site.fadeout-delay }},
+      fadeSpeed: '{{ site.fadeout-speed }}',
       cursorChar: "|"
     });
+
   </script>
 
   <!-- Dynamic Typing End  -->
@@ -285,7 +290,7 @@ function addTohistory() {
     username: "aaroncrobinson",
     //repository: "your-repo", // optional
     selector: "#feed",
-    limit: 5 // optional
+    limit: 7 // optional
   });
 </script>
 {% endif %}

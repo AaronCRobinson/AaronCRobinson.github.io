@@ -163,7 +163,7 @@ a {
     text-align: center;
     color: $intro-text-color;
     {% if site.background-img %}
-    background: url({{ site.background-img }}) no-repeat bottom center scroll;
+    background: url({{ site.background-img }}) no-repeat center scroll;
     {% endif %}
     background-color: $header-background-color;
     -webkit-background-size: cover;
@@ -448,6 +448,7 @@ body {
 
 @media(min-width:768px) {
   .projects-div {
+    padding: 15px;
     width: 50%;
     display: table-cell;
     vertical-align:top;
