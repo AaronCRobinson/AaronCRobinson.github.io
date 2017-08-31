@@ -170,6 +170,13 @@ keybase-username: aaroncrobinson
 keybase-in-social: False
 keybase-in-footer: True
 
+#################
+# Resume and CV #
+#################
+
+resume: http://aaroncrobinson.x10host.com/resume.pdf
+cv: http://aaroncrobinson.x10host.com/cv.pdf
+
 ################################################################################
 
 # NB! Tread carefully if you want to change the variables below this point!
